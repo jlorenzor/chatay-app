@@ -1,0 +1,15 @@
+substrate-front-end-template/node_modules
+substrate-front-end-template/.vscode
+substrate-front-end-template/**/.DS_Store
+substrate-front-end-template/build
+substrate-front-end-template/coverage
+substrate-front-end-template/.yarn/*
+substrate-front-end-template/!.yarn/releases
+substrate-front-end-template/!.yarn/plugins
+substrate-front-end-template/!.yarn/sdks
+substrate-front-end-template/!.yarn/versions
+substrate-front-end-template/.pnp.*
+
+substrate-node-template/debug/*
+substrate-node-template/target/*
+substrate-node-template/Cargo.lock
