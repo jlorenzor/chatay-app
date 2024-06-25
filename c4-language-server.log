@@ -1,0 +1,553 @@
+22:16:23.063 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Starting Socket Connection
+22:16:23.083 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - READY_TO_CONNECT
+22:16:23.523 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer started
+22:16:23.856 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+22:16:23.998 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+22:16:24.000 [main] INFO  d.s.c.ls.service.C4LanguageServer - getWorkspaceService
+22:16:24.015 [main] INFO  d.s.c.ls.service.C4LanguageServer - connect
+22:16:24.109 [pool-1-thread-1] INFO  d.s.c.ls.service.C4LanguageServer - initialize
+22:16:26.590 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///c%3A/Users/Ch%27atay/Documents/GitHub/chatay-app/architecture-model/chatay_blockchain.dsl
+22:16:26.591 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 0
+22:16:26.598 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.autoformat.indent
+22:16:26.626 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.629 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+22:16:26.660 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 1, contextId: 483602915, contextName WorkspaceDslContext
+22:16:26.661 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.664 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 5, contextId: 1134097457, contextName ModelDslContext
+22:16:26.664 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.666 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: citizen, modelId: 1 at linenumber: chatay_blockchain.dsl, 7
+22:16:26.666 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.667 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: councilAgents, modelId: 2 at linenumber: chatay_blockchain.dsl, 9
+22:16:26.668 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.668 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: policeOfficers, modelId: 3 at linenumber: chatay_blockchain.dsl, 11
+22:16:26.668 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.669 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: courtAgents, modelId: 4 at linenumber: chatay_blockchain.dsl, 13
+22:16:26.669 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.670 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chataySecurity, modelId: 5 at linenumber: chatay_blockchain.dsl, 15
+22:16:26.671 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.672 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 17, contextId: 1810862940, contextName ModelDslContext
+22:16:26.672 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.694 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+22:16:26.696 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:26.742 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayPublicApp, modelId: 6 at linenumber: chatay_blockchain.dsl, 19
+22:16:26.742 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.742 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 19, contextId: 993904532, contextName SoftwareSystemDslContext
+22:16:26.743 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.744 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cpHybridApp, modelId: 7 at linenumber: chatay_blockchain.dsl, 20
+22:16:26.744 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.744 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 20, contextId: 1253803120, contextName ContainerDslContext
+22:16:26.744 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.749 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: nativeReader, modelId: 8 at linenumber: chatay_blockchain.dsl, 21
+22:16:26.750 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.750 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 21, contextId: 754607356, contextName ComponentDslContext
+22:16:26.750 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.752 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 24, contextId: 754607356, contextName ComponentDslContext
+22:16:26.752 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.757 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: drmModule, modelId: 9 at linenumber: chatay_blockchain.dsl, 25
+22:16:26.757 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.758 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 25, contextId: 508272872, contextName ComponentDslContext
+22:16:26.758 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.759 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 28, contextId: 508272872, contextName ComponentDslContext
+22:16:26.759 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.764 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 8->9, identifier: null, at linenumber: chatay_blockchain.dsl, 29
+22:16:26.764 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.765 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cpWebCatalog, modelId: 11 at linenumber: chatay_blockchain.dsl, 31
+22:16:26.766 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.766 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 11->8, identifier: null, at linenumber: chatay_blockchain.dsl, 32
+22:16:26.766 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.767 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 8->11, identifier: null, at linenumber: chatay_blockchain.dsl, 33
+22:16:26.767 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.768 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 34, contextId: 1253803120, contextName ContainerDslContext
+22:16:26.768 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.768 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cpWebApp, modelId: 14 at linenumber: chatay_blockchain.dsl, 35
+22:16:26.768 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.769 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 35, contextId: 25623002, contextName ContainerDslContext
+22:16:26.769 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.770 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 36, contextId: 270539586, contextName ContainerDslContext
+22:16:26.770 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.770 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: webReader, modelId: 15 at linenumber: chatay_blockchain.dsl, 37
+22:16:26.771 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.771 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: epubToWebpub, modelId: 16 at linenumber: chatay_blockchain.dsl, 38
+22:16:26.771 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.771 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 38, contextId: 16663542, contextName ComponentDslContext
+22:16:26.772 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.774 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 16->15, identifier: null, at linenumber: chatay_blockchain.dsl, 39
+22:16:26.774 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.775 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 15->16, identifier: null, at linenumber: chatay_blockchain.dsl, 40
+22:16:26.775 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.776 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 41, contextId: 16663542, contextName ComponentDslContext
+22:16:26.776 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.777 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: epubToWebpubApp, modelId: 19 at linenumber: chatay_blockchain.dsl, 42
+22:16:26.777 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.778 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 42, contextId: 1051827705, contextName ComponentDslContext
+22:16:26.778 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.778 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 19->16, identifier: null, at linenumber: chatay_blockchain.dsl, 43
+22:16:26.778 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.779 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 44, contextId: 1051827705, contextName ComponentDslContext
+22:16:26.779 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.780 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: axisNowWebDecryptor, modelId: 21 at linenumber: chatay_blockchain.dsl, 45
+22:16:26.780 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.780 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 45, contextId: 1336730366, contextName ComponentDslContext
+22:16:26.780 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.781 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 15->21, identifier: null, at linenumber: chatay_blockchain.dsl, 46
+22:16:26.781 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.782 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 47, contextId: 1336730366, contextName ComponentDslContext
+22:16:26.782 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.783 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 48, contextId: 270539586, contextName ContainerDslContext
+22:16:26.783 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.783 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 49, contextId: 25623002, contextName ContainerDslContext
+22:16:26.783 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.784 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 50, contextId: 993904532, contextName SoftwareSystemDslContext
+22:16:26.784 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.785 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayConsortiumApp, modelId: 23 at linenumber: chatay_blockchain.dsl, 52
+22:16:26.785 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.785 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 52, contextId: 1852036196, contextName SoftwareSystemDslContext
+22:16:26.785 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.785 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: ccWebApp, modelId: 24 at linenumber: chatay_blockchain.dsl, 53
+22:16:26.785 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.786 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 53, contextId: 1011836389, contextName ContainerDslContext
+22:16:26.786 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.786 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: webReader, modelId: 25 at linenumber: chatay_blockchain.dsl, 54
+22:16:26.786 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.787 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: iFrameReader, modelId: 26 at linenumber: chatay_blockchain.dsl, 55
+22:16:26.787 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.788 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: ccSearch, modelId: 27 at linenumber: chatay_blockchain.dsl, 56
+22:16:26.788 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.788 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: researchCatalog, modelId: 28 at linenumber: chatay_blockchain.dsl, 57
+22:16:26.789 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.789 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 58, contextId: 1011836389, contextName ContainerDslContext
+22:16:26.789 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.790 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: ccApi, modelId: 29 at linenumber: chatay_blockchain.dsl, 61
+22:16:26.790 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.790 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 61, contextId: 1902950043, contextName ContainerDslContext
+22:16:26.791 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.791 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 62, contextId: 1384271673, contextName ContainerDslContext
+22:16:26.791 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.792 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: webReader, modelId: 30 at linenumber: chatay_blockchain.dsl, 63
+22:16:26.792 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.793 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: epubToWebpub, modelId: 31 at linenumber: chatay_blockchain.dsl, 64
+22:16:26.794 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 64, contextId: 1830901172, contextName ComponentDslContext
+22:16:26.795 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 31->30, identifier: null, at linenumber: chatay_blockchain.dsl, 65
+22:16:26.796 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.797 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 30->31, identifier: null, at linenumber: chatay_blockchain.dsl, 66
+22:16:26.797 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 67, contextId: 1830901172, contextName ComponentDslContext
+22:16:26.798 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: epubToWebpubApp, modelId: 34 at linenumber: chatay_blockchain.dsl, 68
+22:16:26.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 68, contextId: 789643701, contextName ComponentDslContext
+22:16:26.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 34->31, identifier: null, at linenumber: chatay_blockchain.dsl, 69
+22:16:26.799 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 70, contextId: 789643701, contextName ComponentDslContext
+22:16:26.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: axisNowWebDecryptor, modelId: 36 at linenumber: chatay_blockchain.dsl, 71
+22:16:26.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 71, contextId: 22105669, contextName ComponentDslContext
+22:16:26.800 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 30->36, identifier: null, at linenumber: chatay_blockchain.dsl, 72
+22:16:26.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 73, contextId: 22105669, contextName ComponentDslContext
+22:16:26.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 74, contextId: 1384271673, contextName ContainerDslContext
+22:16:26.801 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: webpubGenerator, modelId: 38 at linenumber: chatay_blockchain.dsl, 75
+22:16:26.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 76, contextId: 1902950043, contextName ContainerDslContext
+22:16:26.802 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 24->29, identifier: null, at linenumber: chatay_blockchain.dsl, 78
+22:16:26.803 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 38->24, identifier: null, at linenumber: chatay_blockchain.dsl, 79
+22:16:26.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 38->34, identifier: null, at linenumber: chatay_blockchain.dsl, 80
+22:16:26.804 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 34->38, identifier: null, at linenumber: chatay_blockchain.dsl, 81
+22:16:26.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 82, contextId: 1852036196, contextName SoftwareSystemDslContext
+22:16:26.805 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayBlockchain, modelId: 44 at linenumber: chatay_blockchain.dsl, 84
+22:16:26.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 84, contextId: 1920904434, contextName SoftwareSystemDslContext
+22:16:26.806 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 86, contextId: 1035578074, contextName SoftwareSystemDslContext
+22:16:26.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.807 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayAuthApiIntegration, modelId: 45 at linenumber: chatay_blockchain.dsl, 87
+22:16:26.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.808 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 88, contextId: 1035578074, contextName SoftwareSystemDslContext
+22:16:26.809 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.809 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 90, contextId: 1748464252, contextName SoftwareSystemDslContext
+22:16:26.809 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.810 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayBlockchainApi, modelId: 46 at linenumber: chatay_blockchain.dsl, 91
+22:16:26.811 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.811 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 91, contextId: 532075233, contextName ContainerDslContext
+22:16:26.811 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.811 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cbApiSmartContractApi, modelId: 47 at linenumber: chatay_blockchain.dsl, 92
+22:16:26.812 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.812 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cbApiBlockchainApi, modelId: 48 at linenumber: chatay_blockchain.dsl, 93
+22:16:26.812 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 94, contextId: 532075233, contextName ContainerDslContext
+22:16:26.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayL2Blockchain, modelId: 49 at linenumber: chatay_blockchain.dsl, 96
+22:16:26.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.814 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 96, contextId: 1885251257, contextName ContainerDslContext
+22:16:26.814 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.814 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 97, contextId: 472481688, contextName ContainerDslContext
+22:16:26.815 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.815 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl2bRollup, modelId: 50 at linenumber: chatay_blockchain.dsl, 98
+22:16:26.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl2bRollupManager, modelId: 51 at linenumber: chatay_blockchain.dsl, 99
+22:16:26.816 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl2bTransactionBatcher, modelId: 52 at linenumber: chatay_blockchain.dsl, 100
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl2bStateCommitmentEngine, modelId: 53 at linenumber: chatay_blockchain.dsl, 101
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 102, contextId: 472481688, contextName ContainerDslContext
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.817 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl2bShard, modelId: 54 at linenumber: chatay_blockchain.dsl, 103
+22:16:26.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl2bSidechain, modelId: 55 at linenumber: chatay_blockchain.dsl, 104
+22:16:26.818 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 54->55, identifier: null, at linenumber: chatay_blockchain.dsl, 106
+22:16:26.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 50->54, identifier: null, at linenumber: chatay_blockchain.dsl, 107
+22:16:26.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 108, contextId: 1885251257, contextName ContainerDslContext
+22:16:26.819 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: chatayL1Blockchain, modelId: 58 at linenumber: chatay_blockchain.dsl, 110
+22:16:26.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 110, contextId: 204930443, contextName ContainerDslContext
+22:16:26.820 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.821 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 111, contextId: 1931179836, contextName ContainerDslContext
+22:16:26.821 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.821 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bNetwork, modelId: 59 at linenumber: chatay_blockchain.dsl, 112
+22:16:26.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bConsensus, modelId: 60 at linenumber: chatay_blockchain.dsl, 113
+22:16:26.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 114, contextId: 1931179836, contextName ContainerDslContext
+22:16:26.822 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.823 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 116, contextId: 1602959556, contextName ContainerDslContext
+22:16:26.823 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bPacemaker, modelId: 61 at linenumber: chatay_blockchain.dsl, 117
+22:16:26.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bLeaderElection, modelId: 62 at linenumber: chatay_blockchain.dsl, 118
+22:16:26.824 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bMempool, modelId: 63 at linenumber: chatay_blockchain.dsl, 119
+22:16:26.825 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 120, contextId: 1602959556, contextName ContainerDslContext
+22:16:26.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 122, contextId: 1970411140, contextName ContainerDslContext
+22:16:26.826 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bNodeDB, modelId: 64 at linenumber: chatay_blockchain.dsl, 123
+22:16:26.827 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.828 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bNode, modelId: 65 at linenumber: chatay_blockchain.dsl, 124
+22:16:26.828 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.829 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: cl1bCrypto, modelId: 66 at linenumber: chatay_blockchain.dsl, 125
+22:16:26.829 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.829 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 126, contextId: 1970411140, contextName ContainerDslContext
+22:16:26.829 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 65->63, identifier: null, at linenumber: chatay_blockchain.dsl, 128
+22:16:26.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 62->59, identifier: null, at linenumber: chatay_blockchain.dsl, 129
+22:16:26.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 130, contextId: 204930443, contextName ContainerDslContext
+22:16:26.830 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.831 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 131, contextId: 1748464252, contextName SoftwareSystemDslContext
+22:16:26.831 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.831 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 45->48, identifier: null, at linenumber: chatay_blockchain.dsl, 132
+22:16:26.832 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.832 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 45->47, identifier: null, at linenumber: chatay_blockchain.dsl, 133
+22:16:26.832 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 46->49, identifier: null, at linenumber: chatay_blockchain.dsl, 134
+22:16:26.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 47->50, identifier: null, at linenumber: chatay_blockchain.dsl, 135
+22:16:26.833 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.834 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 48->58, identifier: null, at linenumber: chatay_blockchain.dsl, 136
+22:16:26.834 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.834 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 49->65, identifier: null, at linenumber: chatay_blockchain.dsl, 138
+22:16:26.834 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.835 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 55->65, identifier: null, at linenumber: chatay_blockchain.dsl, 139
+22:16:26.835 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.835 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 140, contextId: 1920904434, contextName SoftwareSystemDslContext
+22:16:26.835 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.835 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 141, contextId: 1810862940, contextName ModelDslContext
+22:16:26.835 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.836 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 45->5, identifier: null, at linenumber: chatay_blockchain.dsl, 143
+22:16:26.836 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.836 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 24->45, identifier: null, at linenumber: chatay_blockchain.dsl, 145
+22:16:26.836 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.837 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 14->45, identifier: null, at linenumber: chatay_blockchain.dsl, 146
+22:16:26.837 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.837 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 11->45, identifier: null, at linenumber: chatay_blockchain.dsl, 147
+22:16:26.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->6, identifier: null, at linenumber: chatay_blockchain.dsl, 149
+22:16:26.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.838 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->7, identifier: null, at linenumber: chatay_blockchain.dsl, 150
+22:16:26.839 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.839 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 2->15, identifier: null, at linenumber: chatay_blockchain.dsl, 152
+22:16:26.839 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.839 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 2->7, identifier: null, at linenumber: chatay_blockchain.dsl, 153
+22:16:26.839 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.840 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 2->11, identifier: null, at linenumber: chatay_blockchain.dsl, 154
+22:16:26.840 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.840 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 3->6, identifier: null, at linenumber: chatay_blockchain.dsl, 155
+22:16:26.840 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.840 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->24, identifier: null, at linenumber: chatay_blockchain.dsl, 157
+22:16:26.840 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->25, identifier: null, at linenumber: chatay_blockchain.dsl, 158
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->26, identifier: null, at linenumber: chatay_blockchain.dsl, 159
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->27, identifier: null, at linenumber: chatay_blockchain.dsl, 160
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 4->28, identifier: null, at linenumber: chatay_blockchain.dsl, 161
+22:16:26.841 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.842 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 162, contextId: 1134097457, contextName ModelDslContext
+22:16:26.842 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.842 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 164, contextId: 1098798325, contextName ViewsDslContext
+22:16:26.842 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: SystemLandscape at linenumber chatay_blockchain.dsl, 165
+22:16:26.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 165, contextId: 830750426, contextName SystemLandscapeViewDslContext
+22:16:26.851 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.862 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 168, contextId: 830750426, contextName SystemLandscapeViewDslContext
+22:16:26.862 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: SystemContext-001 at linenumber chatay_blockchain.dsl, 170
+22:16:26.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 170, contextId: 861902467, contextName SystemContextViewDslContext
+22:16:26.864 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.865 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 173, contextId: 861902467, contextName SystemContextViewDslContext
+22:16:26.866 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.867 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Container-001 at linenumber chatay_blockchain.dsl, 175
+22:16:26.868 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.868 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 175, contextId: 1294203627, contextName ContainerViewDslContext
+22:16:26.868 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.871 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 178, contextId: 1294203627, contextName ContainerViewDslContext
+22:16:26.872 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.874 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-001 at linenumber chatay_blockchain.dsl, 180
+22:16:26.874 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.874 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 180, contextId: 1947268978, contextName ComponentViewDslContext
+22:16:26.874 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.876 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 183, contextId: 1947268978, contextName ComponentViewDslContext
+22:16:26.876 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.877 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-002 at linenumber chatay_blockchain.dsl, 185
+22:16:26.877 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.877 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 185, contextId: 333103666, contextName ComponentViewDslContext
+22:16:26.877 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 188, contextId: 333103666, contextName ComponentViewDslContext
+22:16:26.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: SystemContext-002 at linenumber chatay_blockchain.dsl, 190
+22:16:26.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.880 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 190, contextId: 85286978, contextName SystemContextViewDslContext
+22:16:26.881 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.881 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 193, contextId: 85286978, contextName SystemContextViewDslContext
+22:16:26.881 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.881 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Container-002 at linenumber chatay_blockchain.dsl, 195
+22:16:26.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 195, contextId: 1548773157, contextName ContainerViewDslContext
+22:16:26.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 198, contextId: 1548773157, contextName ContainerViewDslContext
+22:16:26.882 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.883 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-003 at linenumber chatay_blockchain.dsl, 200
+22:16:26.883 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.883 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 200, contextId: 1764427955, contextName ComponentViewDslContext
+22:16:26.883 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.884 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 203, contextId: 1764427955, contextName ComponentViewDslContext
+22:16:26.884 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.885 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-004 at linenumber chatay_blockchain.dsl, 205
+22:16:26.885 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.885 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 205, contextId: 1489406817, contextName ComponentViewDslContext
+22:16:26.885 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.886 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 208, contextId: 1489406817, contextName ComponentViewDslContext
+22:16:26.886 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: SystemContext-003 at linenumber chatay_blockchain.dsl, 210
+22:16:26.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 210, contextId: 1038399953, contextName SystemContextViewDslContext
+22:16:26.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 213, contextId: 1038399953, contextName SystemContextViewDslContext
+22:16:26.887 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.888 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Container-003 at linenumber chatay_blockchain.dsl, 215
+22:16:26.888 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.888 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 215, contextId: 1401466256, contextName ContainerViewDslContext
+22:16:26.888 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.889 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 218, contextId: 1401466256, contextName ContainerViewDslContext
+22:16:26.889 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.890 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-005 at linenumber chatay_blockchain.dsl, 220
+22:16:26.890 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.890 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 220, contextId: 493144608, contextName ComponentViewDslContext
+22:16:26.890 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.891 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 223, contextId: 493144608, contextName ComponentViewDslContext
+22:16:26.891 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.892 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-006 at linenumber chatay_blockchain.dsl, 225
+22:16:26.892 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.892 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 225, contextId: 2042207385, contextName ComponentViewDslContext
+22:16:26.893 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.894 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 228, contextId: 2042207385, contextName ComponentViewDslContext
+22:16:26.894 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.895 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Component-007 at linenumber chatay_blockchain.dsl, 230
+22:16:26.895 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.895 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 230, contextId: 1901701605, contextName ComponentViewDslContext
+22:16:26.895 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.896 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 233, contextId: 1901701605, contextName ComponentViewDslContext
+22:16:26.896 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.899 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 237, contextId: 145480293, contextName StylesDslContext
+22:16:26.899 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.903 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 238, contextId: 1383580529, contextName ElementStyleDslContext
+22:16:26.903 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.905 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 239
+22:16:26.905 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.906 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 242, contextId: 1383580529, contextName ElementStyleDslContext
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 243, contextId: 1953042051, contextName ElementStyleDslContext
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 244
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 245, contextId: 1953042051, contextName ElementStyleDslContext
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 246, contextId: 2034430406, contextName ElementStyleDslContext
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 247
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 248, contextId: 2034430406, contextName ElementStyleDslContext
+22:16:26.907 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 249, contextId: 666253933, contextName ElementStyleDslContext
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 250
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 251
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 252, contextId: 666253933, contextName ElementStyleDslContext
+22:16:26.908 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.909 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 253, contextId: 5846797, contextName ElementStyleDslContext
+22:16:26.909 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.909 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 254
+22:16:26.909 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.909 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 255
+22:16:26.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 256, contextId: 5846797, contextName ElementStyleDslContext
+22:16:26.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 257, contextId: 1014512787, contextName ElementStyleDslContext
+22:16:26.910 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 258
+22:16:26.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 259
+22:16:26.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 260, contextId: 1014512787, contextName ElementStyleDslContext
+22:16:26.911 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.912 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 261, contextId: 1390032411, contextName ElementStyleDslContext
+22:16:26.912 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.912 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 263, contextId: 1390032411, contextName ElementStyleDslContext
+22:16:26.912 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.912 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 264, contextId: 1151929215, contextName ElementStyleDslContext
+22:16:26.912 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 266, contextId: 1151929215, contextName ElementStyleDslContext
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 267, contextId: 226606520, contextName ElementStyleDslContext
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 269, contextId: 226606520, contextName ElementStyleDslContext
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 270, contextId: 1893766207, contextName ElementStyleDslContext
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.913 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 271
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 272
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 273, contextId: 1893766207, contextName ElementStyleDslContext
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 274, contextId: 1929977558, contextName ElementStyleDslContext
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 276, contextId: 1929977558, contextName ElementStyleDslContext
+22:16:26.914 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 278, contextId: 2146894139, contextName ElementStyleDslContext
+22:16:26.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 279
+22:16:26.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 280
+22:16:26.915 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 282, contextId: 2146894139, contextName ElementStyleDslContext
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 284, contextId: 2132479744, contextName ElementStyleDslContext
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 285
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 286
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.916 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 288, contextId: 2132479744, contextName ElementStyleDslContext
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 290, contextId: 187575728, contextName ElementStyleDslContext
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 291
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 292
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 294, contextId: 187575728, contextName ElementStyleDslContext
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 296, contextId: 812285357, contextName ElementStyleDslContext
+22:16:26.917 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 297
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 298
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 300, contextId: 812285357, contextName ElementStyleDslContext
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: chatay_blockchain.dsl at linenumber 302, contextId: 2010336322, contextName ElementStyleDslContext
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 303
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedColor at linenumber chatay_blockchain.dsl, 304
+22:16:26.918 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 306, contextId: 2010336322, contextName ElementStyleDslContext
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 307, contextId: 145480293, contextName StylesDslContext
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 308, contextId: 1098798325, contextName ViewsDslContext
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: chatay_blockchain.dsl at linenumber 309, contextId: 483602915, contextName WorkspaceDslContext
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.919 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+22:16:26.921 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace NYPL eReading
+22:16:26.921 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+22:16:26.922 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+22:16:26.922 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:26.922 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:16:26.923 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/c:/Users/Ch'atay/Documents/GitHub/chatay-app/architecture-model/chatay_blockchain.dsl
+22:16:26.923 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider -                    [239, 244, 247, 250, 251, 254, 255, 258, 259, 271, 272, 279, 280, 285, 286, 291, 292, 297, 298, 303, 304]
+22:16:27.291 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+22:16:27.292 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:27.292 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:27.292 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:16:27.307 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+22:16:27.307 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:27.308 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:27.308 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:16:27.327 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [28, 10, 12, 14, 0, 0, 16, 9, 14, 0, 3, 10, 12, 14, 0, 0, 16, 12, 14, 0, 1, 10, 12, 14, 0, 0, 16, 12, 14, 0, 6, -1, 12, 14, 0, 0, 18, 9, 14, 0, 1, 14, 9, 14, 0, 0, -15, 12, 14, 0, 3, -1, 15, 14, 0, 0, 18, 12, 14, 0, 3, 14, 9, 14, 0, 0, -15, 19, 14, 0, 19, -1, 12, 14, 0, 0, 18, 9, 14, 0, 1, 14, 9, 14, 0, 0, -15, 12, 14, 0, 3, -1, 15, 14, 0, 0, 18, 12, 14, 0, 3, 14, 9, 14, 0, 0, -15, 19, 14, 0, 6, 8, 8, 14, 0, 0, 12, 5, 14, 0, 1, 14, 15, 14, 0, 0, 19, 8, 14, 0, 1, 14, 15, 14, 0, 0, 25, 15, 14, 0, 1, 14, 15, 14, 0, 0, 25, 15, 14, 0, 25, 12, 9, 14, 0, 0, 13, 13, 14, 0, 1, 12, 10, 14, 0, 0, 14, 9, 14, 0, 21, 12, 8, 14, 0, 0, 12, 11, 14, 0, 1, 12, 18, 14, 0, 0, 22, 11, 14, 0, 3, 8, 24, 14, 0, 0, 48, 18, 14, 0, 1, 8, 24, 14, 0, 0, 48, 21, 14, 0, 1, 8, 19, 14, 0, 0, 23, 18, 14, 0, 1, 28, 21, 14, 0, 0, 44, 10, 14, 0, 1, 28, 18, 14, 0, 0, 22, 18, 14, 0, 2, 8, 18, 14, 0, 0, 41, 8, 14, 0, 1, 27, 13, 14, 0, 0, 36, 8, 14, 0, 4, 21, 24, 14, 0, 0, 28, 14, 14, 0, 2, 24, 8, 14, 0, 0, 29, 24, 14, 0, 1, 20, 8, 14, 0, 0, 29, 24, 14, 0, 1, 32, 12, 14, 0, 0, 33, 24, 14, 0, 2, 4, 7, 14, 0, 0, 11, 15, 14, 0, 1, 4, 7, 14, 0, 0, 27, 11, 14, 0, 2, 4, 13, 14, 0, 0, 42, 9, 14, 0, 1, 4, 13, 14, 0, 0, 33, 11, 14, 0, 1, 4, 13, 14, 0, 0, 45, 12, 14, 0, 1, 4, 14, 14, 0, 0, 18, 15, 14, 0, 2, 4, 11, 14, 0, 0, 35, 8, 14, 0, 1, 4, 11, 14, 0, 0, 44, 9, 14, 0, 1, 4, 11, 14, 0, 0, 44, 12, 14, 0, 1, 4, 11, 14, 0, 0, 44, 8, 14, 0, 1, 4, 11, 14, 0, 0, 44, 15, 14, 0, 9, 18, 15, 14, 0, 5, 14, 15, 14, 0, 5, 30, 11, 14, 0, 5, 30, 8, 14, 0, 5, 18, 19, 14, 0, 5, 14, 19, 14, 0, 5, 34, 5, 14, 0, 5, 34, 8, 14, 0, 5, 18, 16, 14, 0, 5, 14, 16, 14, 0, 5, 31, 19, 14, 0, 5, 31, 18, 14, 0, 5, 31, 18, 14, 0]
+22:16:30.332 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+22:16:30.332 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:30.333 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:30.333 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:16:30.848 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+22:16:30.848 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:30.848 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:30.848 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:16:30.849 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/c:/Users/Ch'atay/Documents/GitHub/chatay-app/architecture-model/chatay_blockchain.dsl
+22:16:30.849 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider -                    [239, 244, 247, 250, 251, 254, 255, 258, 259, 271, 272, 279, 280, 285, 286, 291, 292, 297, 298, 303, 304]
+22:16:31.090 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+22:16:31.090 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:31.091 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:31.091 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:16:33.477 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+22:16:33.477 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:16:33.477 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:16:33.477 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:19:29.955 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+22:19:29.956 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+22:19:29.956 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:19:29.956 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: C:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:19:29.956 [ForkJoinPool.commonPool-worker-3] ERROR d.s.c.ls.model.C4DocumentManager - getModel - created through internal include C:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:19:29.957 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+22:19:29.957 [ForkJoinPool.commonPool-worker-3] ERROR d.s.c.l.s.C4TextDocumentService - textDecorations == null
+22:19:30.240 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+22:19:30.240 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+22:19:30.240 [ForkJoinPool.commonPool-worker-3] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Ch'atay\Documents\GitHub\chatay-app\architecture-model\chatay_blockchain.dsl
+22:19:30.240 [ForkJoinPool.commonPool-worker-3] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
