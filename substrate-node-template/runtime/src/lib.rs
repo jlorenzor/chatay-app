@@ -21,6 +21,9 @@ use sp_std::prelude::*;
 use sp_version::NativeVersion;
 use sp_version::RuntimeVersion;
 
+// Digital Evidence Management System
+use pallet_contracts::Config;
+
 // A few exports that help ease life for downstream crates.
 pub use frame_support::{
 	construct_runtime, parameter_types,
@@ -284,6 +287,7 @@ construct_runtime!(
 		Sudo: pallet_sudo,
 		// Session: pallet_session,
 		Hotstuff: pallet_hotstuff,
+		Contracts: pallet_contracts::{Pallet, Call, Storage, Event<T>},
 	}
 );
 
@@ -543,5 +547,9 @@ impl_runtime_apis! {
 			// have a backtrace here.
 			Executive::try_execute_block(block, state_root_check, signature_check, select).expect("execute-block failed")
 		}
+	}
+
+	impl pallet_contracts::Config for Runtime {
+		// ... Configuraciones que van a depender de la implementación de pallet-contracts segun chatay-app
 	}
 }
